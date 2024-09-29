@@ -1,13 +1,13 @@
-package com.gauravworks.spring_boot_microservice_course;
+package com.gauravworks.bookstore.catalog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootMicroserviceCourseApplication {
+public class CatalogServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMicroserviceCourseApplication.class, args);
+		SpringApplication.run(CatalogServiceApplication.class, args);
 	}
 
 }
